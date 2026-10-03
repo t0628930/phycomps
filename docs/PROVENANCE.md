@@ -12,6 +12,9 @@ The recovered pc_mps_train.py dependency is copied unchanged. These facts do not
 prove byte-identical source use in every historical training session.
 
 Source inspection found no explicit license file in the selected frozen code.
-Author authorization was supplied for scripts/results; that does not resolve any
-unidentified third-party ownership. Preserve notices and confirm provenance before
-applying a software license. This is not a comprehensive legal or security audit.
+Author authorization was supplied for scripts/results. On 3 October 2026 the user
+approved GPL-3.0-only for author-owned software with a non-binding citation request;
+see LICENSE and COPYRIGHT.md. Archived source bytes remain unchanged. This does
+not resolve unidentified third-party ownership or grant rights to external data.
+Preserve third-party notices and confirm institutional constraints before public
+release. This is not a comprehensive legal or security audit.

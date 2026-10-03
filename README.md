@@ -7,8 +7,10 @@ Authors: Tarik Idrissi, Abdessamad El Rharras, Rachid Saadane.
 ## Release status
 This is an unpublished release candidate prepared for the private repository
 https://github.com/t0628930/phycomps-ijece-42922 (3 October 2026). Author authorization for code and
-results was supplied during preparation. A noncommercial policy with separate commercial permission is intended; the exact
-license remains unapproved. License choice, public accessibility and an immutable public release remain pending. Do not describe this candidate as a published open-source release.
+results was supplied during preparation. The authors' software is licensed under
+GNU GPL version 3 only (GPL-3.0-only), as approved on 3 October 2026. Commercial
+use is permitted under that license. Public accessibility and an immutable public
+release remain pending. Do not describe this candidate as a published release.
 No DOI, acceptance date or historical commit identity is asserted.
 
 ## Included
@@ -62,6 +64,17 @@ train-only historical envelope/model selection, active causal response and
 cross-site validation remain unproven. See `docs/VALIDATION_REPORT.md`.
 
 ## Citation and rights
-Use the supplied author/title metadata in `CITATION.cff`; add the verified release
-DOI only after publication. No software license has been selected yet. Third-party
-notices, if applicable, must not be removed or overridden by the authors' license.
+Please cite PhyCoMPS and its associated manuscript in publications, theses and
+reports that use this software or its results. `CITATION.cff` supplies the verified
+software author/title metadata; `CITATION.bib` provides software and unpublished
+manuscript references. No DOI or journal acceptance is asserted.
+
+This scientific citation request is not an additional condition of the GPL and
+does not restrict private use. Preserve copyright and license notices when
+redistributing code as required by the GPL. See `LICENSE` and `COPYRIGHT.md`.
+Third-party notices and licenses remain applicable. The software license does not
+automatically license external datasets, the manuscript or result tables.
+
+`docs/VALIDATION_REPORT.md` preserves the earlier local-validation report, including
+its then-pending licensing status. Current licensing and publication status are
+recorded here and in `RELEASE_STATUS.json`; scientific results are unchanged.

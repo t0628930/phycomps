@@ -1,17 +1,19 @@
 {
   "code_and_results_authorized": true,
-  "software_license": null,
+  "software_license": "GPL-3.0-only",
   "author_affirmations_complete": false,
   "raw_data_and_checkpoints_included": false,
   "repository_url": "https://github.com/t0628930/phycomps-ijece-42922",
   "release_doi": null,
   "published": false,
   "source": "user authorization during preparation",
-  "intended_policy": "noncommercial permission with separate agreement for commercial uses",
-  "license_text_approved": false,
+  "intended_policy": "GNU GPL version 3 only; commercial use permitted; scientific citation requested, not a license condition",
+  "license_text_approved": true,
   "public_account_available": true,
   "repository_access": "private_preparation",
   "public_access_verified": false,
   "immutable_release_id": null,
-  "private_preparation_date": "2026-10-03"
+  "private_preparation_date": "2026-10-03",
+  "license_approval_date": "2026-10-03",
+  "citation_policy": "Non-binding request to cite software and manuscript in publications using the work"
 }

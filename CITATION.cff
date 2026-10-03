@@ -1,5 +1,6 @@
 cff-version: 1.2.0
-message: "Please cite this software using the author/title metadata; a release DOI is pending."
+message: "Please cite PhyCoMPS in publications using this software; see CITATION.bib for the associated unpublished manuscript. Citation is requested, not an additional GPL condition."
+license: GPL-3.0-only
 title: "PhyCoMPS: Auditable Bounded Priors for Hydroponic Time-Series Generation"
 type: software
 authors:
