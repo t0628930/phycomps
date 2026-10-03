@@ -1,22 +1,16 @@
-# Private preparation and public-release gates
+# Prepublication checks and conditions for public release
 
-Prepared 3 October 2026 for t0628930/phycomps-ijece-42922. A private Git commit is
-not a public release and does not close reviewer C3. There is no published DOI.
+This private release candidate was prepared for `t0628930/phycomps-ijece-42922` on 3 October 2026. A commit to a private repository does not constitute public dissemination and does not, by itself, resolve reviewer comment C3. No publication DOI has been assigned.
 
-Before any visibility change:
-- Approve the exact software license and applicable rights. The requested policy
-  reserves commercial uses for separate agreement; LICENSE_PENDING.md is not a license.
-- Confirm the author declarations and any institutional/third-party constraints.
-- Retain the distinction between source data, aggregate results and code permissions.
-- Keep raw/prepared sensor rows, trajectory arrays and checkpoints out of this repository.
-- Run the regression tests, result-table checks and release-gate tests.
-- Regenerate RELEASE_MANIFEST.csv after any content edit; do not reinterpret changed
-  checksums as proof of historical-source identity.
-- Publish a fixed version and independently verify unauthenticated access. Only then
-  record public_access_verified, published, and the actual release identifier/DOI.
-- Update Data Availability, declaration and reviewer C3 with that verified information;
-  recompile the manuscript and recheck the response page references.
+Before changing the repository's visibility, the following conditions should be satisfied:
 
-The original local evidence and submission PDFs remain outside this repository
-and unchanged. Full retraining, agronomic calibration and historical-host recovery
-are not implied by successful repository preparation.
+- Approve the definitive software license and verify the corresponding rights. The proposed policy requires a separate agreement for commercial use; `LICENSE_PENDING.md` is **not** an operative software license.
+- Verify the author declarations and applicable institutional or third-party obligations.
+- Distinguish explicitly among permissions concerning source data, aggregate results, and software.
+- Exclude raw and processed sensor observations, trajectory arrays, and model checkpoints from this repository.
+- Execute the regression tests, numerical-table verification, and release-gate tests.
+- Regenerate `RELEASE_MANIFEST.csv` after **any** content modification. Changes in checksums must not be interpreted as evidence of historical source identity.
+- Publish an immutable version and independently verify access without authentication. Only after these checks should the repository record public access as verified, identify the release as published, and provide its actual version identifier or DOI.
+- Revise the manuscript's Data Availability statement, declarations, and response to reviewer C3 using the verified release information. Recompile the manuscript and confirm all page references in the response letter.
+
+The underlying local evidence and submission PDFs remain outside this repository and have not been modified. Successful preparation of this repository does not imply full model retraining, independent agronomic calibration, or recovery of the original execution environment.
