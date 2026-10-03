@@ -1,17 +1,7 @@
-# Provenance and release transformations
+# Source provenance and release transformations
 
-`SOURCE_PROVENANCE.csv` records each copied file's revision-relative source path,
-original and release-candidate SHA-256 values. Metadata serialization can change
-bytes without changing scientific values; path-valued fields may be redacted.
-`REDACTED_METADATA_FIELDS.json` records field locations, not private original values.
-The original private 80-file snapshot remains unchanged outside this candidate.
+`SOURCE_PROVENANCE.csv` documents the revision-relative origin of each copied file, together with its original and release-candidate SHA-256 hashes. Re-serializing metadata may alter a file's byte representation without modifying its scientific content. Path-valued metadata may also have been redacted; `REDACTED_METADATA_FIELDS.json` identifies the affected field locations without disclosing the original private values. The original 80-file private snapshot remains unmodified outside this release candidate.
 
-The MPS runtime overlay adds two optional normalization-cache arguments. Its patch
-and original source are both supplied; tests compare values and gradients.
-The recovered pc_mps_train.py dependency is copied unchanged. These facts do not
-prove byte-identical source use in every historical training session.
+The MPS runtime compatibility overlay introduces two optional normalization-cache parameters. Both the patch and the original implementation are included, and accompanying tests compare numerical outputs and gradients. The recovered `pc_mps_train.py` dependency is reproduced without modification. These observations **do not establish that byte-identical source files were used in every historical training run**.
 
-Source inspection found no explicit license file in the selected frozen code.
-Author authorization was supplied for scripts/results; that does not resolve any
-unidentified third-party ownership. Preserve notices and confirm provenance before
-applying a software license. This is not a comprehensive legal or security audit.
+Inspection of the selected frozen code did not identify an explicit license file. Although authorization was obtained from the authors for the included scripts and results, the rights of any unidentified third parties have not been established. Existing notices should be retained, and source provenance should be confirmed before adopting a software license. This review is neither a comprehensive legal assessment nor a security audit.
