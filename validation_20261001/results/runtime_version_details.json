@@ -1,0 +1,22 @@
+{
+  "numpy": {
+    "imported_version": "2.2.6",
+    "distribution_metadata": "2.2.0"
+  },
+  "pandas": {
+    "imported_version": "2.3.3",
+    "distribution_metadata": "2.3.3"
+  },
+  "scipy": {
+    "imported_version": "1.14.1",
+    "distribution_metadata": "1.14.1"
+  },
+  "torch": {
+    "imported_version": "2.7.1+cpu",
+    "distribution_metadata": "2.7.1"
+  },
+  "matplotlib": {
+    "imported_version": "3.10.0",
+    "distribution_metadata": "3.10.0"
+  }
+}

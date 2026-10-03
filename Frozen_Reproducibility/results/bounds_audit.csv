@@ -1,0 +1,6 @@
+feature,historical_low,historical_high,training_q01,training_q99,holdout_violation_historical_feature,holdout_violation_training_quantiles_feature,provenance
+ph,5.38,6.98,5.380000114440918,6.989999771118164,0.0,0.0,historical_envelope_vs_training_only_sensitivity
+ec,1.11,3.21,1.1040199995040894,3.2133800983428955,0.0,0.0,historical_envelope_vs_training_only_sensitivity
+water_temp,18.07,24.93,18.06999969482422,24.93000030517578,0.017343304843304843,0.017343304843304843,historical_envelope_vs_training_only_sensitivity
+air_temp,20.0,26.2,20.0,26.100000381469727,0.0,0.0,historical_envelope_vs_training_only_sensitivity
+rh,52.8,82.8,53.20000076293945,82.9000015258789,0.0,0.0,historical_envelope_vs_training_only_sensitivity

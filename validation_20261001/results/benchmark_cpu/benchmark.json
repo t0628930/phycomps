@@ -1,0 +1,173 @@
+{
+  "environment": {
+    "platform": "Windows-10-10.0.19045-SP0",
+    "architecture": "AMD64",
+    "cpu": {
+      "Name": "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz",
+      "Manufacturer": "GenuineIntel",
+      "Architecture": 9,
+      "NumberOfCores": 2,
+      "NumberOfLogicalProcessors": 4
+    },
+    "python": "3.12.3",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "torch_intraop_threads": 1,
+    "torch_interop_threads": 1,
+    "cuda_available": false,
+    "gpu": null,
+    "torch_build_config": "PyTorch built with:\n  - C++ Version: 201703\n  - MSVC 192930158\n  - Intel(R) oneAPI Math Kernel Library Version 2025.1-Product Build 20250306 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.7.1 (Git Hash 8d263e693366ef8db40acc569cc7d8edf644556d)\n  - OpenMP 2019\n  - LAPACK is enabled (usually provided by MKL)\n  - CPU capability usage: AVX2\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=e2d141dbde55c2a4370fac5165b0561b6af4798b, CXX_COMPILER=<BUILD_PATH>, CXX_FLAGS=/DWIN32 /D_WINDOWS /GR /EHsc /Zc:__cplusplus /bigobj /FS /utf-8 -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE /wd4624 /wd4068 /wd4067 /wd4267 /wd4661 /wd4717 /wd4244 /wd4804 /wd4273, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.7.1, USE_CUDA=0, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=OFF, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, \n",
+    "utc_started": "2026-10-01T10:49:22.331222+00:00",
+    "kind": "new_checkpoint_inference_benchmark_not_historical_replication",
+    "device": "cpu",
+    "warmup_per_operation": 3,
+    "timed_repetitions_per_operation": 7,
+    "batch_sizes": [
+      1,
+      16
+    ],
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "variants": [
+      "non_residual_decoder",
+      "full"
+    ],
+    "measurement": "perf_counter_ns; synchronize CUDA before and after if applicable",
+    "execution_mode": "torch.inference_mode; eval; float32; resident tensors",
+    "noise": "fixed seed=1000+model_seed; preallocated shared noise for paired operations",
+    "operation_order": "rotated across timed rounds",
+    "scope": "no checkpoint loading, disk I/O, transfer, optimizer or backward inside timings",
+    "script_sha256": "3d702410e954906a567a334178135f9624a9f8ffe7a58ad7f3a744ae05929e28",
+    "model_source_sha256": "dcb4ed1f36eac4ffc1be8cfc05a59f808e6d6862e8d255ac1217e6fc6ebc349c",
+    "mps_source_sha256": "1985d1d97d3fa38754d6512b4eba99e76ea7c9fcc891499e9f59ef8657c9ec89",
+    "mps_compatibility_fix": "optional log_norm cache hooks only; original contractions and sampling retained"
+  },
+  "checkpoints": [
+    {
+      "variant": "non_residual_decoder",
+      "seed": 42,
+      "checkpoint_sha256": "10a9d071657fbb3f9fd0075d6e8d7ff77ff53b105a2f302dee3d84c810efd03c",
+      "geometry_sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+      "codes_sha256": "6ea0b9618323020e2512f0eb4f9459e9f8693a60a0767e681dfeff735330b4eb",
+      "frozen_outputs_match": true,
+      "checkpoint_epoch": 150,
+      "prior_parameters": 234723,
+      "decoder_parameters": 223429
+    },
+    {
+      "variant": "non_residual_decoder",
+      "seed": 43,
+      "checkpoint_sha256": "3c19f5d16ae05b44b25e3a8e75b755625683b31aeeea00a787e15bedaa8efea4",
+      "geometry_sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+      "codes_sha256": "73a56989cf6e800e7c9a188dd61d7561a9412dd936366f6c3fdd176138383a94",
+      "frozen_outputs_match": true,
+      "checkpoint_epoch": 150,
+      "prior_parameters": 234723,
+      "decoder_parameters": 223429
+    },
+    {
+      "variant": "non_residual_decoder",
+      "seed": 44,
+      "checkpoint_sha256": "ca328dd8655e8b7ed6c4629292abd15de8689aee6b160368c841c7a7807947a9",
+      "geometry_sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+      "codes_sha256": "a42acf490016f07d3fe8cbdeb4f486e01570faaa8f7174bd996ef6106973f37f",
+      "frozen_outputs_match": true,
+      "checkpoint_epoch": 150,
+      "prior_parameters": 234723,
+      "decoder_parameters": 223429
+    },
+    {
+      "variant": "non_residual_decoder",
+      "seed": 45,
+      "checkpoint_sha256": "c380b31d2bd1f04487ca13dbeca4e9ccbf875e865ea7099bd4767cd110fbdced",
+      "geometry_sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+      "codes_sha256": "49c3718aebfef33e661ce3cc7a885ebae2fb376faa254ca7db48e4442ef12a56",
+      "frozen_outputs_match": true,
+      "checkpoint_epoch": 150,
+      "prior_parameters": 234723,
+      "decoder_parameters": 223429
+    },
+    {
+      "variant": "non_residual_decoder",
+      "seed": 46,
+      "checkpoint_sha256": "ec6ff15f905423730e31cd6bed768f03bb418173b0f17fb1189eac6063adbf07",
+      "geometry_sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+      "codes_sha256": "21bbed51c39c58b273da9abdd1e2804be2e35d9b44d0e1a5763e563653dae3ab",
+      "frozen_outputs_match": true,
+      "checkpoint_epoch": 150,
+      "prior_parameters": 234723,
+      "decoder_parameters": 223429
+    },
+    {
+      "variant": "full",
+      "seed": 42,
+      "checkpoint_sha256": "7364dc1e8fee160cbaf214d1ccd215c041631936abb2cf35231b8b24f30ed0da",
+      "geometry_sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+      "codes_sha256": "37f0f23c7086df77af0f34a96ac108607bfbbff599d21d1490ae55df540d1d8c",
+      "frozen_outputs_match": true,
+      "checkpoint_epoch": 150,
+      "prior_parameters": 234723,
+      "decoder_parameters": 223429
+    },
+    {
+      "variant": "full",
+      "seed": 43,
+      "checkpoint_sha256": "e68e913dbb72ca54517e364b494ed91fea20aa382bcc4bd55b2d85306c49230c",
+      "geometry_sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+      "codes_sha256": "23a02aab67215eca8a674a616d5ac25cefc43cc674024f9531e1953d44d41bee",
+      "frozen_outputs_match": true,
+      "checkpoint_epoch": 150,
+      "prior_parameters": 234723,
+      "decoder_parameters": 223429
+    },
+    {
+      "variant": "full",
+      "seed": 44,
+      "checkpoint_sha256": "29ca15a628a0ee1813c9331ea48a929c1b1c186ab7a5210d24077846fa5b932f",
+      "geometry_sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+      "codes_sha256": "0c2f974e8c9750631ab3a2307faf24bba8bec9d65c7f9ab4f827b73e78e6776a",
+      "frozen_outputs_match": true,
+      "checkpoint_epoch": 150,
+      "prior_parameters": 234723,
+      "decoder_parameters": 223429
+    },
+    {
+      "variant": "full",
+      "seed": 45,
+      "checkpoint_sha256": "89a0106b985d1e8b7b31ea16704f124b605eea92aac9a20e5b42e803c9558dc1",
+      "geometry_sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+      "codes_sha256": "f25c2b6bb062b5a6d98ae7de25df8fe1f7ded46ec40e9f76e1c14f410d3f7bf9",
+      "frozen_outputs_match": true,
+      "checkpoint_epoch": 150,
+      "prior_parameters": 234723,
+      "decoder_parameters": 223429
+    },
+    {
+      "variant": "full",
+      "seed": 46,
+      "checkpoint_sha256": "7385518ffecdbcea26370f8a7fe27ff35c7282d519349c64e23fc87253e2d31d",
+      "geometry_sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+      "codes_sha256": "4c6caf7f7f390531212359e936d76cc6627c0c387efcb79ac77f6cddfec4832f",
+      "frozen_outputs_match": true,
+      "checkpoint_epoch": 150,
+      "prior_parameters": 234723,
+      "decoder_parameters": 223429
+    }
+  ],
+  "timed_calls": 700,
+  "limitations": [
+    "New local measurements do not identify the historical 2.738 ms CPU or validate GPU latency.",
+    "Standalone box audit and incremental prior-objective forward cost are distinct.",
+    "No backward/optimizer/full-training audit overhead or memory overhead is measured.",
+    "All holdout actuator conditions are passive; active workloads require separate validation.",
+    "This box audit does not include marginal or transition audits.",
+    "Batch-16 per-window times are amortized throughput, not batch-one latency.",
+    "Timing repeats are technical repeats, not independent training replicates."
+  ]
+}

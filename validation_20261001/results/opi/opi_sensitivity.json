@@ -1,0 +1,260 @@
+{
+  "kind": "new_posthoc_sensitivity_not_agronomic_validation",
+  "variants": [
+    "non_residual_decoder",
+    "full",
+    "prior_iid_uniform"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "weight_grid_points": 66,
+  "hd_limits_g_m3": [
+    5,
+    10,
+    15,
+    20,
+    30
+  ],
+  "training_q95": {
+    "ph": 0.059999942779541016,
+    "ec": 0.1081399917602539,
+    "water_temp": 5.430000305175781,
+    "air_temp": 0.10000038146972656,
+    "rh": 0.7000007629394531
+  },
+  "canonical_opi_decomposition_verified_all_15_runs": true,
+  "ranking_outcomes": [
+    {
+      "thresholds": "historical_fixed",
+      "hd_limit": 5.0,
+      "comparator": "full",
+      "grid_points": 66,
+      "direct_higher": 66,
+      "tied": 0,
+      "direct_lower": 0,
+      "minimum_difference": 1.994301994301395e-05,
+      "maximum_difference": 0.13164529914529915
+    },
+    {
+      "thresholds": "historical_fixed",
+      "hd_limit": 5.0,
+      "comparator": "iid",
+      "grid_points": 66,
+      "direct_higher": 66,
+      "tied": 0,
+      "direct_lower": 0,
+      "minimum_difference": 0.03758689458689468,
+      "maximum_difference": 0.5497378438554908
+    },
+    {
+      "thresholds": "historical_fixed",
+      "hd_limit": 10.0,
+      "comparator": "full",
+      "grid_points": 66,
+      "direct_higher": 66,
+      "tied": 0,
+      "direct_lower": 0,
+      "minimum_difference": 1.994301994301395e-05,
+      "maximum_difference": 0.05469654528478063
+    },
+    {
+      "thresholds": "historical_fixed",
+      "hd_limit": 10.0,
+      "comparator": "iid",
+      "grid_points": 66,
+      "direct_higher": 66,
+      "tied": 0,
+      "direct_lower": 0,
+      "minimum_difference": 0.03758689458689468,
+      "maximum_difference": 0.5497378438554908
+    },
+    {
+      "thresholds": "historical_fixed",
+      "hd_limit": 15.0,
+      "comparator": "full",
+      "grid_points": 66,
+      "direct_higher": 65,
+      "tied": 1,
+      "direct_lower": 0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.05469654528478063
+    },
+    {
+      "thresholds": "historical_fixed",
+      "hd_limit": 15.0,
+      "comparator": "iid",
+      "grid_points": 66,
+      "direct_higher": 65,
+      "tied": 1,
+      "direct_lower": 0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.5497378438554908
+    },
+    {
+      "thresholds": "historical_fixed",
+      "hd_limit": 20.0,
+      "comparator": "full",
+      "grid_points": 66,
+      "direct_higher": 65,
+      "tied": 1,
+      "direct_lower": 0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.05469654528478063
+    },
+    {
+      "thresholds": "historical_fixed",
+      "hd_limit": 20.0,
+      "comparator": "iid",
+      "grid_points": 66,
+      "direct_higher": 65,
+      "tied": 1,
+      "direct_lower": 0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.5497378438554908
+    },
+    {
+      "thresholds": "historical_fixed",
+      "hd_limit": 30.0,
+      "comparator": "full",
+      "grid_points": 66,
+      "direct_higher": 65,
+      "tied": 1,
+      "direct_lower": 0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.05469654528478063
+    },
+    {
+      "thresholds": "historical_fixed",
+      "hd_limit": 30.0,
+      "comparator": "iid",
+      "grid_points": 66,
+      "direct_higher": 65,
+      "tied": 1,
+      "direct_lower": 0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.5497378438554908
+    },
+    {
+      "thresholds": "training_q95",
+      "hd_limit": 5.0,
+      "comparator": "full",
+      "grid_points": 66,
+      "direct_higher": 66,
+      "tied": 0,
+      "direct_lower": 0,
+      "minimum_difference": 1.994301994301395e-05,
+      "maximum_difference": 0.13164529914529915
+    },
+    {
+      "thresholds": "training_q95",
+      "hd_limit": 5.0,
+      "comparator": "iid",
+      "grid_points": 66,
+      "direct_higher": 66,
+      "tied": 0,
+      "direct_lower": 0,
+      "minimum_difference": 0.03758689458689468,
+      "maximum_difference": 0.4579673920850391
+    },
+    {
+      "thresholds": "training_q95",
+      "hd_limit": 10.0,
+      "comparator": "full",
+      "grid_points": 66,
+      "direct_higher": 66,
+      "tied": 0,
+      "direct_lower": 0,
+      "minimum_difference": 1.994301994301395e-05,
+      "maximum_difference": 0.06556201967966668
+    },
+    {
+      "thresholds": "training_q95",
+      "hd_limit": 10.0,
+      "comparator": "iid",
+      "grid_points": 66,
+      "direct_higher": 66,
+      "tied": 0,
+      "direct_lower": 0,
+      "minimum_difference": 0.03758689458689468,
+      "maximum_difference": 0.4579673920850391
+    },
+    {
+      "thresholds": "training_q95",
+      "hd_limit": 15.0,
+      "comparator": "full",
+      "grid_points": 66,
+      "direct_higher": 65,
+      "tied": 1,
+      "direct_lower": 0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.06556201967966668
+    },
+    {
+      "thresholds": "training_q95",
+      "hd_limit": 15.0,
+      "comparator": "iid",
+      "grid_points": 66,
+      "direct_higher": 65,
+      "tied": 1,
+      "direct_lower": 0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.4579673920850391
+    },
+    {
+      "thresholds": "training_q95",
+      "hd_limit": 20.0,
+      "comparator": "full",
+      "grid_points": 66,
+      "direct_higher": 65,
+      "tied": 1,
+      "direct_lower": 0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.06556201967966668
+    },
+    {
+      "thresholds": "training_q95",
+      "hd_limit": 20.0,
+      "comparator": "iid",
+      "grid_points": 66,
+      "direct_higher": 65,
+      "tied": 1,
+      "direct_lower": 0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.4579673920850391
+    },
+    {
+      "thresholds": "training_q95",
+      "hd_limit": 30.0,
+      "comparator": "full",
+      "grid_points": 66,
+      "direct_higher": 65,
+      "tied": 1,
+      "direct_lower": 0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.06556201967966668
+    },
+    {
+      "thresholds": "training_q95",
+      "hd_limit": 30.0,
+      "comparator": "iid",
+      "grid_points": 66,
+      "direct_higher": 65,
+      "tied": 1,
+      "direct_lower": 0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.4579673920850391
+    }
+  ],
+  "limitations": [
+    "All grids are diagnostic choices, not validated crop-specific thresholds or optimized weights.",
+    "No significance claim: outcomes compare means of five stored seeds.",
+    "Grid frequencies are not probabilities or independent experiments.",
+    "Direct versus residual IID is not a prior-only ablation.",
+    "Results remain conditional on the historical preprocessing and operating envelope."
+  ]
+}

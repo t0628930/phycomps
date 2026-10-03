@@ -1,0 +1,20 @@
+{
+  "kind": "revision_validation_not_full_retraining_reproduction",
+  "frozen_source_hashes_verified": 80,
+  "regression_tests": 12,
+  "entrypoints_import_and_help_exit_codes": {
+    "train": 0,
+    "ablation": 0
+  },
+  "dependency_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.14.1",
+    "torch": "2.7.1+cpu",
+    "matplotlib": "3.10.0"
+  },
+  "timed_calls": 700,
+  "checkpoints": 10,
+  "public_repository_published": false,
+  "full_retraining_performed": false
+}

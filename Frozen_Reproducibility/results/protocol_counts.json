@@ -1,0 +1,23 @@
+{
+  "rows": 50238,
+  "segments": 62,
+  "windows_total": 1560,
+  "train_windows": 1323,
+  "purge_windows": 3,
+  "holdout_windows": 234,
+  "train_active_windows": 267,
+  "holdout_active_windows": 0,
+  "train_exhaust_fan_windows": 5,
+  "holdout_duration_19_21": 233,
+  "holdout_duration_19_5_20_5": 228,
+  "holdout_segments": [
+    58,
+    60
+  ],
+  "seq_len": 120,
+  "stride": 30,
+  "max_gap_seconds": 60.0,
+  "holdout_ratio": 0.15,
+  "expected_profile_errors": [],
+  "strict_profile_passed": true
+}

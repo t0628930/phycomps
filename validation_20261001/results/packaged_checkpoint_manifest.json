@@ -1,0 +1,252 @@
+[
+  {
+    "file": "checkpoints/non_residual_decoder/seed_42/pc_cmps_rwgan_final.pt",
+    "sha256": "10a9d071657fbb3f9fd0075d6e8d7ff77ff53b105a2f302dee3d84c810efd03c",
+    "bytes": 14104641
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_42/hybrid_geometry.json",
+    "sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+    "bytes": 1423
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_42/config.json",
+    "sha256": "7502e9c29a3ed0734e12bcb8c370eb49033286222ae56edbc6967845ed313563",
+    "bytes": 1692
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_42/fake_sequences_real_unit.npy",
+    "sha256": "e335407f58061bbc95281d3a81e3456a3a23950604318624c3af53314e4e5988",
+    "bytes": 561728
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_42/sampled_mps_codes.npy",
+    "sha256": "6ea0b9618323020e2512f0eb4f9459e9f8693a60a0767e681dfeff735330b4eb",
+    "bytes": 1123328
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_43/pc_cmps_rwgan_final.pt",
+    "sha256": "3c19f5d16ae05b44b25e3a8e75b755625683b31aeeea00a787e15bedaa8efea4",
+    "bytes": 14105217
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_43/hybrid_geometry.json",
+    "sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+    "bytes": 1423
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_43/config.json",
+    "sha256": "b762fd370f23c8766596e96f50bda4863c3e26c9ac3cdaec9b327c899f6b9cd8",
+    "bytes": 1692
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_43/fake_sequences_real_unit.npy",
+    "sha256": "6f94fbbbdc64246968bf3e891aef48c94a411f03f1a242a1130c3f816bb4a3e6",
+    "bytes": 561728
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_43/sampled_mps_codes.npy",
+    "sha256": "73a56989cf6e800e7c9a188dd61d7561a9412dd936366f6c3fdd176138383a94",
+    "bytes": 1123328
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_44/pc_cmps_rwgan_final.pt",
+    "sha256": "ca328dd8655e8b7ed6c4629292abd15de8689aee6b160368c841c7a7807947a9",
+    "bytes": 14105665
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_44/hybrid_geometry.json",
+    "sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+    "bytes": 1423
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_44/config.json",
+    "sha256": "294419027b06f8dd2b9e7b70af2243f54bc7f5370e5f34f00db02d7528412225",
+    "bytes": 1692
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_44/fake_sequences_real_unit.npy",
+    "sha256": "67157d28f4ef41c0c5efadb2a4d8f7d69e421afa9a2585988b406d7e00eb485a",
+    "bytes": 561728
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_44/sampled_mps_codes.npy",
+    "sha256": "a42acf490016f07d3fe8cbdeb4f486e01570faaa8f7174bd996ef6106973f37f",
+    "bytes": 1123328
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_45/pc_cmps_rwgan_final.pt",
+    "sha256": "c380b31d2bd1f04487ca13dbeca4e9ccbf875e865ea7099bd4767cd110fbdced",
+    "bytes": 14106625
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_45/hybrid_geometry.json",
+    "sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+    "bytes": 1423
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_45/config.json",
+    "sha256": "1b33a123186846f2a105ae21793ccffee50cee0d72b00e6e747ced2d6e94470f",
+    "bytes": 1692
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_45/fake_sequences_real_unit.npy",
+    "sha256": "9b6c1f14601b9b93d41968d348495dd3fc5bd4a85d286342a6cbe3a173fe4122",
+    "bytes": 561728
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_45/sampled_mps_codes.npy",
+    "sha256": "49c3718aebfef33e661ce3cc7a885ebae2fb376faa254ca7db48e4442ef12a56",
+    "bytes": 1123328
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_46/pc_cmps_rwgan_final.pt",
+    "sha256": "ec6ff15f905423730e31cd6bed768f03bb418173b0f17fb1189eac6063adbf07",
+    "bytes": 14203825
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_46/hybrid_geometry.json",
+    "sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+    "bytes": 1423
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_46/config.json",
+    "sha256": "bd8936418a91e59f8c56ce758e310139ba58711493fdbb7c42328faccedfd774",
+    "bytes": 1692
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_46/fake_sequences_real_unit.npy",
+    "sha256": "88ecb9db166af2bc82c59eea988c66b4b5ca67d883b3528b0d732fc81ddabe9f",
+    "bytes": 561728
+  },
+  {
+    "file": "checkpoints/non_residual_decoder/seed_46/sampled_mps_codes.npy",
+    "sha256": "21bbed51c39c58b273da9abdd1e2804be2e35d9b44d0e1a5763e563653dae3ab",
+    "bytes": 1123328
+  },
+  {
+    "file": "checkpoints/full/seed_42/pc_cmps_rwgan_final.pt",
+    "sha256": "7364dc1e8fee160cbaf214d1ccd215c041631936abb2cf35231b8b24f30ed0da",
+    "bytes": 14180977
+  },
+  {
+    "file": "checkpoints/full/seed_42/hybrid_geometry.json",
+    "sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+    "bytes": 1423
+  },
+  {
+    "file": "checkpoints/full/seed_42/config.json",
+    "sha256": "960ec4de1fe2228c8daf5e49068f49039eefcf7644108f374a52f8a2621c96a1",
+    "bytes": 1660
+  },
+  {
+    "file": "checkpoints/full/seed_42/fake_sequences_real_unit.npy",
+    "sha256": "5fae0cc15c7f73f18242385c208aaa3055c232ee823ed7616f545f93355b4f67",
+    "bytes": 561728
+  },
+  {
+    "file": "checkpoints/full/seed_42/sampled_mps_codes.npy",
+    "sha256": "37f0f23c7086df77af0f34a96ac108607bfbbff599d21d1490ae55df540d1d8c",
+    "bytes": 1123328
+  },
+  {
+    "file": "checkpoints/full/seed_43/pc_cmps_rwgan_final.pt",
+    "sha256": "e68e913dbb72ca54517e364b494ed91fea20aa382bcc4bd55b2d85306c49230c",
+    "bytes": 14104065
+  },
+  {
+    "file": "checkpoints/full/seed_43/hybrid_geometry.json",
+    "sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+    "bytes": 1423
+  },
+  {
+    "file": "checkpoints/full/seed_43/config.json",
+    "sha256": "21750d36dcabf0c74419262e303b86e6531c4dffe9208cf6f6a2fbd7e0be7b72",
+    "bytes": 1659
+  },
+  {
+    "file": "checkpoints/full/seed_43/fake_sequences_real_unit.npy",
+    "sha256": "ea8db0beb12418f7416e166e4e3a95f8cfb24127aa3c1a167d6b78efece9a8ea",
+    "bytes": 561728
+  },
+  {
+    "file": "checkpoints/full/seed_43/sampled_mps_codes.npy",
+    "sha256": "23a02aab67215eca8a674a616d5ac25cefc43cc674024f9531e1953d44d41bee",
+    "bytes": 1123328
+  },
+  {
+    "file": "checkpoints/full/seed_44/pc_cmps_rwgan_final.pt",
+    "sha256": "29ca15a628a0ee1813c9331ea48a929c1b1c186ab7a5210d24077846fa5b932f",
+    "bytes": 14202289
+  },
+  {
+    "file": "checkpoints/full/seed_44/hybrid_geometry.json",
+    "sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+    "bytes": 1423
+  },
+  {
+    "file": "checkpoints/full/seed_44/config.json",
+    "sha256": "0292d8864c93be4116a3cc2bc934e3aeddac981120e91cbdc7c351ebb5fd0521",
+    "bytes": 1659
+  },
+  {
+    "file": "checkpoints/full/seed_44/fake_sequences_real_unit.npy",
+    "sha256": "bf374a725546442f01e41ca5221086f2760661000e11f0d4097fb44c00993efd",
+    "bytes": 561728
+  },
+  {
+    "file": "checkpoints/full/seed_44/sampled_mps_codes.npy",
+    "sha256": "0c2f974e8c9750631ab3a2307faf24bba8bec9d65c7f9ab4f827b73e78e6776a",
+    "bytes": 1123328
+  },
+  {
+    "file": "checkpoints/full/seed_45/pc_cmps_rwgan_final.pt",
+    "sha256": "89a0106b985d1e8b7b31ea16704f124b605eea92aac9a20e5b42e803c9558dc1",
+    "bytes": 14202353
+  },
+  {
+    "file": "checkpoints/full/seed_45/hybrid_geometry.json",
+    "sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+    "bytes": 1423
+  },
+  {
+    "file": "checkpoints/full/seed_45/config.json",
+    "sha256": "b04323f1b4aabd5f061fa6c5b00865b4d477ee3319c49fe5cf2166bf62ef5f9c",
+    "bytes": 1659
+  },
+  {
+    "file": "checkpoints/full/seed_45/fake_sequences_real_unit.npy",
+    "sha256": "ad835d985b9eff6e513064f63afe92d43ed369c6a726d3293733bc2c7d8594ba",
+    "bytes": 561728
+  },
+  {
+    "file": "checkpoints/full/seed_45/sampled_mps_codes.npy",
+    "sha256": "f25c2b6bb062b5a6d98ae7de25df8fe1f7ded46ec40e9f76e1c14f410d3f7bf9",
+    "bytes": 1123328
+  },
+  {
+    "file": "checkpoints/full/seed_46/pc_cmps_rwgan_final.pt",
+    "sha256": "7385518ffecdbcea26370f8a7fe27ff35c7282d519349c64e23fc87253e2d31d",
+    "bytes": 14202417
+  },
+  {
+    "file": "checkpoints/full/seed_46/hybrid_geometry.json",
+    "sha256": "3778fa59cee2b98563d7d85c9ecea9f9b7190c829cd86aa58201f09315f528f4",
+    "bytes": 1423
+  },
+  {
+    "file": "checkpoints/full/seed_46/config.json",
+    "sha256": "9ebe7c21e5a3e9c0999539de972ce54a6fe80bf72e9e2309eef7c2375a85fd62",
+    "bytes": 1659
+  },
+  {
+    "file": "checkpoints/full/seed_46/fake_sequences_real_unit.npy",
+    "sha256": "dc00476e047370fcf889233b7bc845b34ca2283e6d62e282d731dd5a16ec2754",
+    "bytes": 561728
+  },
+  {
+    "file": "checkpoints/full/seed_46/sampled_mps_codes.npy",
+    "sha256": "4c6caf7f7f390531212359e936d76cc6627c0c387efcb79ac77f6cddfec4832f",
+    "bytes": 1123328
+  }
+]

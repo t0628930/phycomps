@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this software using the author/title metadata; a release DOI is pending."
+title: "PhyCoMPS: Auditable Bounded Priors for Hydroponic Time-Series Generation"
+type: software
+authors:
+  - family-names: Idrissi
+    given-names: Tarik
+  - family-names: El Rharras
+    given-names: Abdessamad
+  - family-names: Saadane
+    given-names: Rachid
+abstract: "Research code and post-hoc validation for IJECE manuscript 42922. Unpublished release candidate; no complete retraining reproduction is claimed."
+repository-code: "https://github.com/t0628930/phycomps-ijece-42922"

@@ -1,0 +1,7 @@
+{
+  "source_sha256": "70b07212e46f1cea598050bb0f32dac5d518801fedcb09c7b12a3df2dac6d555",
+  "runtime_sha256": "1985d1d97d3fa38754d6512b4eba99e76ea7c9fcc891499e9f59ef8657c9ec89",
+  "reason": "Frozen mixture uses log_norm keyword unsupported by frozen GenerativeMPS.",
+  "changes": "Two optional log_norm cache hooks; no change to sampling, contractions, parameters or architecture.",
+  "historical_training_source_equivalence": "not established; this is an explicit revision compatibility fix"
+}

@@ -1,0 +1,68 @@
+{
+  "kind": "new_posthoc_validation_no_retraining",
+  "raw_sha256": "80e83768dbbda5c11b2cfa36044436df4677a9ba9264f7cf320a64570d9579b2",
+  "prepared_sha256": "fff3f96202d7171e686ca8a639bc466d4282e1eea1c2fc9383196b1fce31c189",
+  "cleaner_sha256": "ea00a2ef0118bfa4fb6bb0a24f3f3fc8ad355a027b0644eb68b8f32af3b92d9d",
+  "raw_rows": 50570,
+  "raw_duplicate_timestamps": 0,
+  "raw_missing_sensor_values": {
+    "pH": 0,
+    "TDS": 0,
+    "water_temp": 0,
+    "DHT_temp": 0,
+    "DHT_humidity": 0
+  },
+  "training_windows": 1323,
+  "holdout_windows": 234,
+  "purged_windows": 3,
+  "shared_prepared_rows": 0,
+  "shared_original_raw_ids": 0,
+  "strict_training_windows": 1323,
+  "strict_holdout_windows": 234,
+  "strict_training_windows_match_historical": true,
+  "strict_holdout_windows_match_historical": true,
+  "train_last_timestamp": "2023-12-26T01:17:21",
+  "holdout_first_timestamp": "2023-12-26T01:17:31",
+  "separation_seconds": 10.0,
+  "stored_holdout_matches_reconstruction": true,
+  "current_cleaner_vs_historical_prepared": {
+    "left_rows": 50238,
+    "right_rows": 50238,
+    "unmatched_timestamps": 0,
+    "changed_feature_values_atol_1e_7": 0,
+    "max_absolute_feature_change": 4.440892098500626e-16
+  },
+  "historical_train_vs_split_first_common_timestamps": {
+    "left_rows": 41850,
+    "right_rows": 41850,
+    "unmatched_timestamps": 0,
+    "changed_feature_values_atol_1e_7": 0,
+    "max_absolute_feature_change": 4.440892098500626e-16
+  },
+  "global_cleaning_future_perturbation": {
+    "left_rows": 42999,
+    "right_rows": 42999,
+    "unmatched_timestamps": 0,
+    "changed_feature_values_atol_1e_7": 0,
+    "max_absolute_feature_change": 0.0
+  },
+  "split_first_future_perturbation": {
+    "left_rows": 42999,
+    "right_rows": 42999,
+    "unmatched_timestamps": 0,
+    "changed_feature_values_atol_1e_7": 0,
+    "max_absolute_feature_change": 0.0
+  },
+  "strict_partition_rows": {
+    "train": 42999,
+    "embargo": 0,
+    "holdout": 7239
+  },
+  "limitations": [
+    "No training or generator evaluation on the split-first inputs has been performed.",
+    "A successful perturbation check on these observations is not a general proof of no leakage.",
+    "Historical envelope selection and model selection provenance remain unverified.",
+    "Bidirectional interpolation remains within each partition; this is offline validation, not causal online imputation.",
+    "Any mismatch between current cleaner and historical prepared CSV prevents claiming exact cleaning reproduction."
+  ]
+}

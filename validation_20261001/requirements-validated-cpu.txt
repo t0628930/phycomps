@@ -1,0 +1,7 @@
+# Validated local Python 3.12 environment; not a transitive lockfile.
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.14.1
+torch==2.7.1+cpu
+matplotlib==3.10.0

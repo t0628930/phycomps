@@ -1,0 +1,35 @@
+--- Frozen_Reproducibility/scripts/pc_mps.py
++++ validation_20261001/runtime/pc_mps.py
+@@ -177,8 +177,10 @@
+             vector = torch.bmm(vector.unsqueeze(1), selected).squeeze(1)
+         return vector.squeeze(-1)
+ 
+-    def log_prob(self, indices: torch.Tensor) -> torch.Tensor:
+-        return 2.0 * self._log_abs_amplitude(indices) - self.log_norm()
++    def log_prob(self, indices: torch.Tensor, log_norm: Optional[torch.Tensor] = None) -> torch.Tensor:
++        if log_norm is None:
++            log_norm = self.log_norm()
++        return 2.0 * self._log_abs_amplitude(indices) - log_norm
+ 
+     def nll(self, indices: torch.Tensor) -> torch.Tensor:
+         return -self.log_prob(indices).mean()
+@@ -189,7 +191,7 @@
+         log_ratio = (log_allowed - self.log_norm()).clamp(max=0.0)
+         return (1.0 - torch.exp(log_ratio)).clamp(0.0, 1.0)
+ 
+-    def allowed_log_barrier(self, allowed_per_site: Sequence[torch.Tensor], per_site: bool = True) -> torch.Tensor:
++    def allowed_log_barrier(self, allowed_per_site: Sequence[torch.Tensor], per_site: bool = True, log_norm: Optional[torch.Tensor] = None) -> torch.Tensor:
+         """Stable monotonic penalty -log(P(all sites allowed)).
+ 
+         The raw forbidden mass approaches one exponentially with sequence length,
+@@ -197,7 +199,9 @@
+         the same optimum while remaining trainable on long windows.
+         """
+         log_allowed = self._contract_log_norm(list(allowed_per_site))
+-        penalty = (self.log_norm() - log_allowed).clamp_min(0.0)
++        if log_norm is None:
++            log_norm = self.log_norm()
++        penalty = (log_norm - log_allowed).clamp_min(0.0)
+         return penalty / self.length if per_site else penalty
+ 
+     def _left_environments(self) -> list[torch.Tensor]:
