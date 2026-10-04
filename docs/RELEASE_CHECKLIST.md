@@ -27,4 +27,6 @@ The user confirmed the funding, conflicts, CRediT and AI-assistance statements.
 The official IJECE template supports open research and public repositories;
 Reviewer C3 explicitly requests a code repository link. The user authorized
 public access after this policy check. Anonymous repository access was verified
-on 4 October 2026. A fixed release is still being prepared; do not infer a DOI.
+on 4 October 2026. The immutable release [v1.0-ijece42922](https://github.com/t0628930/phycomps-ijece-42922/releases/tag/v1.0-ijece42922)
+is published and anonymously verified (ID 403062188).
+The frozen tag was not moved; current main records the post-publication metadata. No DOI is claimed.

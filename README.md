@@ -10,7 +10,11 @@ https://github.com/t0628930/phycomps-ijece-42922, verified without authenticatio
 on 4 October 2026. The authors authorized publication and confirmed the
 administrative declarations. Author-owned software is licensed under GNU GPL
 version 3 only (GPL-3.0-only); commercial use is permitted under that license.
-A fixed archival release is being prepared. No DOI or journal acceptance is asserted.
+The immutable release [v1.0-ijece42922](https://github.com/t0628930/phycomps-ijece-42922/releases/tag/v1.0-ijece42922) was published on 4 October 2026
+from commit `39900761c390450754f7eef6c3c2cf5f236b3133`. Anonymous access and GitHub
+immutability were verified. The tag preserves the pre-publication metadata; this
+main-branch update records completed verification without moving that tag.
+No DOI or journal acceptance is asserted.
 
 ## Included
 - Archived cleaning/transformation scripts, model and training/ablation modules.
