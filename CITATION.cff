@@ -10,5 +10,5 @@ authors:
     given-names: Abdessamad
   - family-names: Saadane
     given-names: Rachid
-abstract: "Research code and post-hoc validation for IJECE manuscript 42922. Unpublished release candidate; no complete retraining reproduction is claimed."
+abstract: "Research code and post-hoc validation for IJECE manuscript 42922. Public code and aggregate results; no complete retraining reproduction is claimed."
 repository-code: "https://github.com/t0628930/phycomps-ijece-42922"

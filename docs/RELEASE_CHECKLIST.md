@@ -21,3 +21,10 @@ Before any visibility change:
 The original local evidence and submission PDFs remain outside this repository
 and unchanged. Full retraining, agronomic calibration and historical-host recovery
 are not implied by successful repository preparation.
+
+## Update on 4 October 2026
+The user confirmed the funding, conflicts, CRediT and AI-assistance statements.
+The official IJECE template supports open research and public repositories;
+Reviewer C3 explicitly requests a code repository link. The user authorized
+public access after this policy check. Anonymous repository access was verified
+on 4 October 2026. A fixed release is still being prepared; do not infer a DOI.

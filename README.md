@@ -5,13 +5,12 @@ Code and post-hoc validation results associated with the IJECE revision of
 Authors: Tarik Idrissi, Abdessamad El Rharras, Rachid Saadane.
 
 ## Release status
-This is an unpublished release candidate prepared for the private repository
-https://github.com/t0628930/phycomps-ijece-42922 (3 October 2026). Author authorization for code and
-results was supplied during preparation. The authors' software is licensed under
-GNU GPL version 3 only (GPL-3.0-only), as approved on 3 October 2026. Commercial
-use is permitted under that license. Public accessibility and an immutable public
-release remain pending. Do not describe this candidate as a published release.
-No DOI, acceptance date or historical commit identity is asserted.
+The code and aggregate results are publicly accessible at
+https://github.com/t0628930/phycomps-ijece-42922, verified without authentication
+on 4 October 2026. The authors authorized publication and confirmed the
+administrative declarations. Author-owned software is licensed under GNU GPL
+version 3 only (GPL-3.0-only); commercial use is permitted under that license.
+A fixed archival release is being prepared. No DOI or journal acceptance is asserted.
 
 ## Included
 - Archived cleaning/transformation scripts, model and training/ablation modules.
@@ -78,3 +77,9 @@ automatically license external datasets, the manuscript or result tables.
 `docs/VALIDATION_REPORT.md` preserves the earlier local-validation report, including
 its then-pending licensing status. Current licensing and publication status are
 recorded here and in `RELEASE_STATUS.json`; scientific results are unchanged.
+
+## Timestamp clarification (4 October 2026)
+The prepared observations have irregular sampling: 5 s and 10 s increments are
+frequent, with a 10 s median within segments. The 62 segment spans total 110.10 h
+over 30.44 calendar days; causes of interruptions are not inferred. Thresholds
+remain per observation, not per second. See `docs/TIMESTAMP_PROFILE.md`.
