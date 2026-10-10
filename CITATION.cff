@@ -10,8 +10,6 @@ authors:
     given-names: Abdessamad
   - family-names: Saadane
     given-names: Rachid
-abstract: "Research code and post-hoc validation for IJECE manuscript 42922. Public code and aggregate results; no complete retraining reproduction is claimed."
-repository-code: "https://github.com/t0628930/phycomps-ijece-42922"
-version: "v1.0-ijece42922"
-date-released: 2026-10-04
-url: "https://github.com/t0628930/phycomps-ijece-42922/releases/tag/v1.0-ijece42922"
+abstract: "Research code and post-hoc validation for hydroponic time-series generation. Public code and aggregate results; complete training reproduction is not claimed."
+repository-code: "https://github.com/t0628930/phycomps"
+url: "https://github.com/t0628930/phycomps"
