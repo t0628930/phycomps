@@ -12,15 +12,16 @@
   "public_account_available": true,
   "repository_access": "public",
   "public_access_verified": true,
-  "immutable_release_id": 403062188,
+  "immutable_release_id": null,
   "private_preparation_date": "2026-10-03",
   "license_approval_date": "2026-10-03",
   "citation_policy": "Non-binding request to cite software and manuscript in publications using the work",
   "author_confirmation_date": "2026-10-04",
   "public_access_verification_date": "2026-10-04",
-  "immutable_release_url": "https://github.com/t0628930/phycomps/releases/tag/v1.0-ijece42922",
-  "immutable_release_tag": "v1.0-ijece42922",
-  "immutable_release_source_commit": "39900761c390450754f7eef6c3c2cf5f236b3133",
-  "immutable_release_verified": true,
-  "release_publication_date": "2026-10-04"
+  "immutable_release_url": null,
+  "immutable_release_tag": null,
+  "immutable_release_source_commit": null,
+  "immutable_release_verified": false,
+  "release_publication_date": null,
+  "release_note": "Create a journal-neutral release before citing a fixed version."
 }

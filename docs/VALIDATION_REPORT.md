@@ -1,6 +1,6 @@
 # Supplementary Validation Report
 
-IJECE 42922 | 1 October 2026
+1 October 2026
 
 New post-hoc checks and local CPU measurements. No new model training or public release.
 
