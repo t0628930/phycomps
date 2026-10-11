@@ -1,6 +1,6 @@
-# PhyCoMPS: Auditable Bounded Priors for Hydroponic Time-Series Generation
+# PhyCoMPS: Auditable Matrix-Product-State Priors and Bounded Recurrent Decoding for Hydroponic Sensor Time Series
 
-Research code and post-hoc validation results for **Auditable Bounded Priors for Hydroponic Time-Series Generation**.
+Research code and post-hoc validation results for **Auditable Matrix-Product-State Priors and Bounded Recurrent Decoding for Hydroponic Sensor Time Series**.
 
 **Authors:** Tarik Idrissi, Abdessamad El Rharras, Rachid Saadane.
 
