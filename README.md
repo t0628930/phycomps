@@ -1,6 +1,6 @@
 # PhyCoMPS: Auditable Matrix-Product-State Priors and Bounded Recurrent Decoding for Hydroponic Sensor Time Series
 
-Research code and post-hoc validation results for **Auditable Matrix-Product-State Priors and Bounded Recurrent Decoding for Hydroponic Sensor Time Series**.
+Research code and post-hoc validation results for **PhyCoMPS: Auditable Matrix-Product-State Priors and Bounded Recurrent Decoding for Hydroponic Sensor Time Series**.
 
 **Authors:** Tarik Idrissi, Abdessamad El Rharras, Rachid Saadane.
 
@@ -19,6 +19,7 @@ This public research subset provides archived code, aggregate results and supple
 - Temporal, OPI-sensitivity and checkpoint timing utilities.
 - An MPS interface compatibility overlay, with value/gradient tests.
 - Twelve data-free regression tests and an independent result-table verifier.
+- Seed-level supplementary tables for the exact prior audit and paired Full--IID comparison (`validation_20261001/results/manuscript_20261013/`).
 
 `Frozen_Reproducibility` retains its directory name for import compatibility. This PUBLIC SUBSET is not the complete private frozen snapshot: data are excluded, configuration locations are changed and path metadata are redacted. See provenance. Unchanged source scripts retain their original SHA-256 values.
 
@@ -49,6 +50,8 @@ OPI weights and the 30 g/m³ cutoff are project-specific diagnostic heuristics. 
 Please cite PhyCoMPS and the associated unpublished research manuscript when using this software or its results. `CITATION.cff` and `CITATION.bib` provide software and manuscript citation metadata. No DOI or journal acceptance is asserted.
 
 This scientific citation request is not an additional condition of the GPL and does not restrict private use. Preserve copyright and license notices as required by the GPL. See `LICENSE` and `COPYRIGHT.md`. Third-party notices and licenses remain applicable. The software license does not automatically license external datasets, the manuscript or result tables.
+
+Release `v1.2` repairs the release-manifest digests for six documentary files in immutable `v1.1` and adds the two seed-level tables. The historical `v1.1` release is not modified. The corrected manifest verifies this version's files; it does not establish fresh training or access to undistributed inputs.
 
 `docs/VALIDATION_REPORT.md` preserves historical local-validation notes, which may reflect an earlier licensing status. Refer to `LICENSE` and current repository metadata for present software terms.
 

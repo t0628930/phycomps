@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite PhyCoMPS in publications using this software; see CITATION.bib for the associated unpublished manuscript. Citation is requested, not an additional GPL condition."
 license: GPL-3.0-only
-title: "PhyCoMPS: Auditable Bounded Priors for Hydroponic Time-Series Generation"
+title: "PhyCoMPS: Auditable Matrix-Product-State Priors and Bounded Recurrent Decoding for Hydroponic Sensor Time Series"
 type: software
 authors:
   - family-names: Idrissi

@@ -22,6 +22,14 @@ The original local evidence and submission PDFs remain outside this repository
 and unchanged. Full retraining, agronomic calibration and historical-host recovery
 are not implied by successful repository preparation.
 
+## v1.2 correction
+
+The immutable public v1.1 package has six documentary-file digest mismatches in
+its RELEASE_MANIFEST.csv. v1.2 corrects the manifest against the actual files and
+adds seed-level exact-prior and paired Full--IID result tables. The original v1.1
+tag and release are preserved. The tables are post-hoc validation exports, not
+new model training or redistributable sensor trajectories.
+
 ## Update on 4 October 2026
 The authors confirmed the funding, conflicts, CRediT and AI-assistance statements.
 Public access was authorized and anonymously verified on 4 October 2026. No DOI
